@@ -13,33 +13,40 @@ public class Main {
 //    }
 //
 //
-      Account bobsAcount = new Account();
-        bobsAcount.setNumber("1234");
-        bobsAcount.setBalance(1000.00);
-        bobsAcount.setCutomerName("Bob");
-        bobsAcount.setCustomerEmail("myemail.bob.com");
-        bobsAcount.setCustomerPhone("(o87) 123-4567");
+//      Account bobsAcount = new Account();
+//        bobsAcount.setNumber("1234");
+//        bobsAcount.setBalance(1000.00);
+//        bobsAcount.setCutomerName("Bob");
+//        bobsAcount.setCustomerEmail("myemail.bob.com");
+//        bobsAcount.setCustomerPhone("(o87) 123-4567");
+//
+//        bobsAcount.withdrawalFunds( 100);
+//        bobsAcount.depositeFunds(250);
+//        bobsAcount.withdrawalFunds(50);
+//
+//        bobsAcount.withdrawalFunds(200);
+//        bobsAcount.depositeFunds(100);
+//        bobsAcount.withdrawalFunds(45.55);
+//
+//
+//
+//      Calculator calculator = new Calculator();
+//      calculator.setFirstNumber(10);
+//      calculator.setSecondNumber(5);
+//
+//      System.out.println(calculator.getAdditionalresult());
+//      System.out.println(calculator.getMultiplication());
+//      System.out.println(calculator.getDvisionResult());
+//      System.out.println(calculator.getSubtraction());
 
-        bobsAcount.withdrawalFunds( 100);
-        bobsAcount.depositeFunds(250);
-        bobsAcount.withdrawalFunds(50);
+       Person person = new Person();
+       person.setFirstName("krishna");
+       person.setLastName("yadav");
+       person.setAge(35);
 
-        bobsAcount.withdrawalFunds(200);
-        bobsAcount.depositeFunds(100);
-        bobsAcount.withdrawalFunds(45.55);
-
-
-
-      Calculator calculator = new Calculator();
-      calculator.setFirstNumber(10);
-      calculator.setSecondNumber(5);
-
-      System.out.println(calculator.getAdditionalresult());
-      System.out.println(calculator.getMultiplication());
-      System.out.println(calculator.getDvisionResult());
-      System.out.println(calculator.getSubtraction());
-
-
+      System.out.println(person.getFirstName());
+      System.out.println(person.getLastName());
+      System.out.println(person.getFullName());
     }
 }
 
